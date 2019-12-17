@@ -1,7 +1,7 @@
 <h1> Mobile Computing Project(Android) -  <br>
     Global Mart E-commerce Grocery Shopping Application</h1>
 
-<h1> Live Demo </h1>
+<h1> Demo </h1>
 <p>
 The .apk file is attached to the repository. Sample images are added here for reference. </p>
 
