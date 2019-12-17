@@ -1,2 +1,2 @@
 <h1> Mobile Computing Project(Android) -  <br>
-    Global Mart E-commerce Grocery shopping application</h1>
+    Global Mart E-commerce Grocery Shopping Application</h1>
