@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_cart_id"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/about_us_id"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/need_help_id"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Need Help" />
+        <item
+            android:id="@+id/purchase_history_id"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Purchase History" />
+        <item
+            android:id="@+id/feedback_id"
+            android:icon="@drawable/ic_recommendations_24dp"
+            android:title="Recommendations" />
+
+    </group>
+
+
+
+
+
+
+</menu>

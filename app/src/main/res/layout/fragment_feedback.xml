@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frmLayout"
+    android:layout_height="match_parent"
+    tools:context=".RecommendationsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:text="Would you like to suggest us something?"
+        android:textSize="20dp"
+        android:id="@+id/feedback_text_id"
+        android:textStyle="bold"
+        android:visibility="visible"/>
+
+    <EditText
+        android:id="@+id/feedback_text"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Write your suggestion within 100 words"
+        android:inputType="textMultiLine"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/submit_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/colorTheme"
+        android:text="Submit"
+        android:visibility="visible"
+        android:textColor="#FFFDFD" />
+
+
+</FrameLayout>
